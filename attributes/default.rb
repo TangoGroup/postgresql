@@ -100,3 +100,4 @@ else
 end
 
 default[:postgresql][:listen_addresses] = "localhost"
+default[:postgresql][:trust_local] = false
